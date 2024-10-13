@@ -1,4 +1,4 @@
-# Домашнее задание к занятию 1 «Disaster recovery и Keepalived»
+# Домашнее задание к занятию 1 «Disaster recovery и Keepalived». Наталия Ханова
 
 ### Цель задания
 В результате выполнения этого задания вы научитесь:
@@ -41,6 +41,15 @@
 - Необходимо аналогично настроить отслеживание состояния интерфейсов Gi0/0 (для первой группы).
 - Для проверки корректности настройки, разорвите один из кабелей между одним из маршрутизаторов и Switch0 и запустите ping между PC0 и Server0.
 - На проверку отправьте получившуюся схему в формате pkt и скриншот, где виден процесс настройки маршрутизатора.
+
+[Схема в формате pkt](https://github.com/NataliyaKh/sflt-homeworks/blob/main/hsrp_advanced1.pkt)
+
+![Router1](https://github.com/NataliyaKh/sflt-homeworks/blob/main/router1.png)`
+
+
+
+![Router2](https://github.com/NataliyaKh/sflt-homeworks/blob/main/router2.png)`
+
 
 ------
 
