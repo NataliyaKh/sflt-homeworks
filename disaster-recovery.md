@@ -66,14 +66,18 @@
 if [[ $(netstat -lntu | grep LISTEN | grep :80) ]] && [[ -f /var/www/html/index.nginx-debian.html ]]; then
 	exit 0
 else
-        exit 1
+        sudo systemctl stop keepalived
 fi
 ```
 
 
 ```
+global_defs {
+  script_user root
+  enable_script_security
+}
 vrrp_script check_script {
-      script "/home/vboxuser/check_nginx.sh"
+      script "/home/check_nginx.sh"
       interval 3
 }
 
