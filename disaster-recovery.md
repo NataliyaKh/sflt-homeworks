@@ -62,16 +62,19 @@
 - На проверку отправьте получившейся bash-скрипт и конфигурационный файл keepalived, а также скриншот с демонстрацией переезда плавающего ip на другой сервер в случае недоступности порта или файла index.html
 
 ```
+
 #!/bin/bash
 if [[ $(netstat -lntu | grep LISTEN | grep :80) ]] && [[ -f /var/www/html/index.nginx-debian.html ]]; then
 	exit 0
 else
         sudo systemctl stop keepalived
 fi
+
 ```
 
 
 ```
+
 global_defs {
   script_user root
   enable_script_security
@@ -97,6 +100,7 @@ vrrp_instance VI_1 {
 		}
 
 }
+
 ```
 
 
