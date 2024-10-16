@@ -106,6 +106,13 @@ vrrp_instance VI_1 {
 
 ![Status change](https://github.com/NataliyaKh/sflt-homeworks/blob/main/keepalived_status.png)`
 
+
+![FloatIP1](https://github.com/NataliyaKh/sflt-homeworks/blob/main/float1.png)`
+
+
+![FloatIP2](https://github.com/NataliyaKh/sflt-homeworks/blob/main/float2.png)`
+
+
 ------
 
 ## Дополнительные задания со звёздочкой*
