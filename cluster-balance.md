@@ -113,7 +113,7 @@ listen web_tcp
 ![Server1](https://github.com/NataliyaKh/sflt-homeworks/blob/main/server1.png)`
 
 
-![Server2](https://github.com/NataliyaKh/sflt-homeworks/blob/main/router2.png)`
+![Server2](https://github.com/NataliyaKh/sflt-homeworks/blob/main/server2.png)`
 
 
 ![Requests](https://github.com/NataliyaKh/sflt-homeworks/blob/main/curlServers.png)`
