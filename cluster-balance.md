@@ -205,7 +205,7 @@ backend web_servers    # секция бэкенд
 ![Balance with no domain](https://github.com/NataliyaKh/sflt-homeworks/blob/main/curl-hostless.png)`
 
 
-![HARproxy - 3 servers](https://github.com/NataliyaKh/sflt-homeworks/blob/main/harproxy3.png)`
+![HAProxy - 3 servers](https://github.com/NataliyaKh/sflt-homeworks/blob/main/haproxy3.png)`
 
 
 ---
