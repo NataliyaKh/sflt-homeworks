@@ -52,6 +52,7 @@
 - На проверку направить файл crontab и скриншот с результатом работы утилиты.
 
 
+[скрипт](https://github.com/NataliyaKh/sflt-homeworks/blob/main/cron2.sh)
 
 
 ![crontab](https://github.com/NataliyaKh/sflt-homeworks/blob/main/crontab-copy.png)`
